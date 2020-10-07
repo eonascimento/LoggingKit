@@ -3,9 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30523.141
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoggingKit.Core", "src\LoggingKit.Core\LoggingKit.Core.csproj", "{40CC02C2-D778-4A90-A93C-B2335FADDCAA}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoggingKit.Console", "src\LoggingKit.Console\LoggingKit.Console.csproj", "{18151584-8B05-4975-8069-112BAE8A9A8E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LoggingKit.Core", "src\LoggingKit.Core\LoggingKit.Core.csproj", "{40CC02C2-D778-4A90-A93C-B2335FADDCAA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +15,6 @@ Global
 		{40CC02C2-D778-4A90-A93C-B2335FADDCAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{40CC02C2-D778-4A90-A93C-B2335FADDCAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{40CC02C2-D778-4A90-A93C-B2335FADDCAA}.Release|Any CPU.Build.0 = Release|Any CPU
-		{18151584-8B05-4975-8069-112BAE8A9A8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{18151584-8B05-4975-8069-112BAE8A9A8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{18151584-8B05-4975-8069-112BAE8A9A8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{18151584-8B05-4975-8069-112BAE8A9A8E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
