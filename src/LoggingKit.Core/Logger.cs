@@ -3,6 +3,7 @@ using Serilog.Events;
 using System;
 using System.Collections.Generic;
 using System.Configuration;
+using System.IO;
 using System.Text;
 
 namespace LoggingKit.Core
@@ -16,7 +17,8 @@ namespace LoggingKit.Core
 
         static Logger()
         {
-            var pathprefix = "D:\\Projetos\\Estudo\\LoggingKit\\Logs\\";
+            var pathprefix = Path.Combine(Directory.GetParent(Directory.GetCurrentDirectory())
+                .Parent.Parent.Parent.Parent.FullName,"Logs\\");
 
             _perfomaceLogger = new LoggerConfiguration()
                 .WriteTo.File(path: $"{pathprefix}perfomace.txt")
